@@ -1,3 +1,94 @@
+/* css for the browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* button styles */
+
+.btn {
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-small {
+    height: 50px;
+    border-radius: 133px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.btn-medium {
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+.btn-large {
+    border-radius: 162px;
+    padding-right: 55px;
+    padding-left: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 74px;
+}
+
+.btn-green {
+    background-color: #3fa72f;
+}
+
+.btn-orange {
+    background-color: #ff8a00;
+    border-radius: 162px;
+}
+
+.btn-black {
+    background-color: #311f09;
+}
+
+.btn-gray {
+    color: #311f09;
+    background-color: #ecf0f1;
+}
+
+.btn-white {
+    color: #311f09;
+    background-color: #ffffff;
+}
+
+/* container styles */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.display-flex-container {
+    display: flex;
+}
+
+.padding-container {
+    padding: 80px;
+}
+
 /* Header */
 
 .header {
@@ -59,12 +150,6 @@
 /* Hero Section */
 
 .hero-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
-
-    display: flex;
-    align-items: center;
     gap: 40px;
 }
 
@@ -117,11 +202,6 @@
 }
 
 .welcome-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
     padding-top: 80px;
     padding-right: 80px;
 }
@@ -158,12 +238,6 @@
 }
 
 /* Menu Section */
-
-.menu-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
-}
 
 .menu-section__container h2 {
     text-align: center;
@@ -247,11 +321,6 @@
     padding-right: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
-    max-width: 1440px;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
     gap: 40px;
 }
 
@@ -290,12 +359,6 @@
 
 #chefs-section {
     text-align: center;
-}
-
-.chefs-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
 }
 
 .chefs-section__container h2 {
@@ -367,12 +430,6 @@
     background-color: #fbfafa;
 }
 
-.testimonials-section__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
-}
-
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
@@ -423,12 +480,6 @@
 
 /* Business Hours section */
 
-.hours-section__container {
-    max-width: 1440px;
-    padding: 80px;
-    margin: 0 auto;
-}
-
 .hours-section__background {
     max-width: 1150px;
     margin: 0 auto;
@@ -476,19 +527,6 @@
     text-align: right;
 }
 
-.btn-large-white {
-    height: 74px;
-    color: #311f09;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 162px;
-    padding-right: 55px;
-    padding-left: 55px;
-    cursor: pointer;
-}
-
 .hours-section__hours .btn-large-orange {
     margin-right: 15px;
 }
@@ -497,12 +535,6 @@
 
 #footer {
     background-color: #311f09;
-}
-
-.footer__container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 80px;
 }
 
 .footer__brand {

@@ -1,90 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
-    <link rel="stylesheet" href="./base.css" />
-    <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-    <header class="header">
-        <nav class="navigation">
-            <img
-                src="./assets/logo-white.svg"
-                alt="DeliziOso"
-                class="logo-white"
-            />
-            <ul class="navigation__links">
-                <li><a href="" class="navigation__link">Home</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Reservation</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="./branding.html">Branding</a></li>
-            </ul>
-            <div class="navigation__actions">
-                <figure>
-                    <img src="./assets/cart.svg" alt="Shopping Cart" />
-                </figure>
-                <button class="btn-small-green">Sign in</button>
-            </div>
-        </nav>
-    </header>
-    <section id="hero-section">
-        <div class="hero-section__container">
-            <div class="hero-section__left">
-                <span>Restaurant</span>
-                <h1 class="hero-section__heading">Italian Cuisine</h1>
-                <p class="hero-section__description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing
-                    elit. Dignissimos, corrupti neque? Tempora ex laboriosam
-                    iste. Molestiae alias nam repellat temporibus eveniet
-                    praesentium eligendi suscipit, repudiandae architecto?
-                    Nam vel nulla maiores.
-                </p>
-                <div class="hero-section__cta">
-                    <button class="btn-large-orange">Order Now</button>
-                    <button class="btn-large-green">Reservation</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Restaurant Website</title>
+        <link rel="stylesheet" href="./styles1.css" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <img
+                    src="./assets/logo-white.svg"
+                    alt="DeliziOso"
+                    class="logo-white"
+                />
+                <ul class="navigation__links">
+                    <li><a href="" class="navigation__link">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Reservation</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="./branding.html">Branding</a></li>
+                </ul>
+                <div class="navigation__actions">
+                    <figure>
+                        <img src="./assets/cart.svg" alt="Shopping Cart" />
+                    </figure>
+                    <button class="btn btn-small btn-green">Sign in</button>
+                </div>
+            </nav>
+        </header>
+        <section id="hero-section">
+            <div
+                class="container hero-section__container display-flex-container padding-container"
+            >
+                <div class="hero-section__left">
+                    <span>Restaurant</span>
+                    <h1 class="hero-section__heading">Italian Cuisine</h1>
+                    <p class="hero-section__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Dignissimos, corrupti neque? Tempora ex laboriosam
+                        iste. Molestiae alias nam repellat temporibus eveniet
+                        praesentium eligendi suscipit, repudiandae architecto?
+                        Nam vel nulla maiores.
+                    </p>
+                    <div class="hero-section__cta">
+                        <button class="btn btn-large btn-orange">
+                            Order Now
+                        </button>
+                        <button class="btn btn-large btn-green">
+                            Reservation
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-section__right">
+                    <img
+                        src="./assets/hero.png"
+                        alt="Spaghetti"
+                        class="hero-section__img"
+                    />
                 </div>
             </div>
-            <div class="hero-section__right">
-                <img
-                    src="./assets/hero.png"
-                    alt="Spaghetti"
-                    class="hero-section__img"
-                />
+        </section>
+        <section id="welcome-section">
+            <div
+                class="container welcome-section__container display-flex-container"
+            >
+                <figure class="welcome-section__left">
+                    <img src="./assets/salad.png" alt="Salad" />
+                </figure>
+                <div class="welcome-section__right">
+                    <h2>Welcome to <span>Delizioso</span></h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Rem doloremque maiores ab! Libero adipisci
+                        recusandae, neque eaque dicta magnam quis molestiae,
+                        excepturi fugiat omnis fugit dolorum! Veritatis non
+                        libero molestias.
+                    </p>
+                    <button class="btn btn-large btn-orange">
+                        See our menu
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="welcome-section">
-        <div class="welcome-section__container">
-            <figure class="welcome-section__left">
-                <img src="./assets/salad.png" alt="Salad" />
-            </figure>
-            <div class="welcome-section__right">
-                <h2>Welcome to <span>Delizioso</span></h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Rem doloremque maiores ab! Libero adipisci
-                    recusandae, neque eaque dicta magnam quis molestiae,
-                    excepturi fugiat omnis fugit dolorum! Veritatis non
-                    libero molestias.
-                </p>
-                <button class="btn-large-orange">See our menu</button>
-            </div>
-        </div>
-    </section>
-    <section id="Menu-section">
-            <div class="menu-section__container">
+        </section>
+        <section id="Menu-section">
+            <div class="container padding-container">
                 <h2>Our Popular Menu</h2>
                 <div class="menu-section__filters">
-                    <button class="btn-large-black">All Categories</button>
-                    <button class="btn-large-gray">Dinner</button>
-                    <button class="btn-large-gray">Lunch</button>
-                    <button class="btn-large-gray">Dessert</button>
-                    <button class="btn-large-gray">Drink</button>
+                    <button class="btn btn-large btn-black">
+                        All Categories
+                    </button>
+                    <button class="btn btn-large btn-gray">Dinner</button>
+                    <button class="btn btn-large btn-gray">Lunch</button>
+                    <button class="btn btn-large btn-gray">Dessert</button>
+                    <button class="btn btn-large btn-gray">Drink</button>
                 </div>
                 <div class="menu-section__meals">
                     <div class="card">
@@ -109,7 +121,9 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$11.99</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                     <div class="card">
@@ -134,7 +148,9 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$14.49</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                     <div class="card">
@@ -159,7 +175,9 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$8.99</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                     <div class="card">
@@ -184,7 +202,9 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$6.99</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                     <div class="card">
@@ -209,7 +229,9 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$9.99</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                     <div class="card">
@@ -234,157 +256,173 @@
                         </p>
                         <div class="card__footer">
                             <span class="menu-section__price">$17.99</span>
-                            <button class="btn-md-orange">Order Now</button>
+                            <button class="btn btn-medium btn-orange">
+                                Order Now
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-    </section>
-    <section id="reservation-section">
-        <div class="reservation-section__container">
-            <figure class="reservation-section__left">
-                <img
-                    src="./assets/reservation.png"
-                    alt="People are gathering for food"
-                />
-            </figure>
-            <div class="reservation-section__right">
-                <h2>Let's reserve <span>a table</span></h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores, corrupti dolore voluptates dolorem autem,
-                    nostrum neque minima iure sapiente veritatis voluptas
-                    earum blanditiis deleniti nam? Perferendis explicabo
-                    amet expedita quae!
-                </p>
-                <button class="btn-large-orange">Reservation</button>
-            </div>
-        </div>
-    </section>
-    <section id="chefs-section">
-        <div class="chefs-section__container">
-            <h2>Our greatest <span>Chefs</span></spa></h2>
-            <div class="chefs-section__chefs">
-                <div class="chefs-section__chef">
-                    <img src="./assets/betran.png" alt="Betran Chef" />
-                    <h4>Betrann Komar</h4>
-                    <p>Head Chef</p>
-                </div>
-                <div class="chefs-section__chef">
-                    <img src="./assets/ferry.png" alt="Ferry Chef" />
-                    <h4>Ferry Sauwi</h4>
-                    <p>Chef</p>
-                </div>
-                <div class="chefs-section__chef">
-                    <img src="./assets/iswan.png" alt="Iswan Chef" />
-                    <h4>Iswan Dracho</h4>
-                    <p>Chef</p>
-                </div>
-            </div>
-            <button class="btn-large-orange">View All</button>
-        </div>
-    </section>
-    <section id="testimonials-section">
-        <div class="testimonials-section__container">
-            <h2>What Customers Say</h2>
-            <div class="testimonials-section__testimonials">
-                <div class="testimonials-section__testimonial">
-                    <img src="./assets/customer-2.png" alt="Starla Virgoun">
-                    <h4>Starla Virgoun</h4>
-                    <h5>Financial Advisor</h5>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae cupiditate eaque obcaecati! 
-                    </p>
-                </div>
-                <div class="testimonials-section__testimonial">
-                    <img src="./assets/customer-1.png" alt="James Steven">
-                    <h4>James Steven</h4>
-                    <h5>Uber Driver</h5>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae cupiditate eaque obcaecati! 
-                    </p>
-                </div>
-                <div class="testimonials-section__testimonial">
-                    <img src="./assets/customer-3.png" alt="Tosh Mat">
-                    <h4>Tosh Mattew</h4>
-                    <h5>Teacher</h5>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae cupiditate eaque obcaecati! 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="hours-section">
-        <div class="hours-section__container">
-            <div class="hours-section__background">
-                <div class="hours-section__hours">
-                    <h2>We are open from</h2>
-                    <h3>Monday - Sunday</h3>
-                    <div class="hours-section__lunch-dinner">
-                        <p>Lunch: Mon-Sun: 11:00am-02:00pm</p>
-                        <p>Dinner: Sunday: 04:00pm-08:00pm</p>
-                        <p>04:00pm-09:00pm</p>
-                    </div>
-                    <button class="btn-large-orange">Order Now</button>
-                    <button class="btn-large-white">Reservation</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="footer">
-        <div class="footer__container">
-            <div class="footer__content">
-                <div class="footer__brand">
+        </section>
+        <section id="reservation-section">
+            <div
+                class="container reservation-section__container display-flex-container"
+            >
+                <figure class="reservation-section__left">
                     <img
-                        src="./assets/logo-dark.svg"
-                        alt=""
-                        class="footer__logo"
+                        src="./assets/reservation.png"
+                        alt="People are gathering for food"
                     />
-                    <p class="footer__text">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.
+                </figure>
+                <div class="reservation-section__right">
+                    <h2>Let's reserve <span>a table</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, corrupti dolore voluptates dolorem autem,
+                        nostrum neque minima iure sapiente veritatis voluptas
+                        earum blanditiis deleniti nam? Perferendis explicabo
+                        amet expedita quae!
                     </p>
-                    <div class="footer__social-icons">
-                        <img src="./assets/twitter.svg" alt="twitter" />
-                        <img src="./assets/instagram.svg" alt="instagram" />
-                        <img src="./assets/facebook.svg" alt="facebook" />
-                    </div>
-                </div>
-                <div class="footer__pages">
-                    <h4 class="footer__heading">Pages</h4>
-                    <a href="" class="footer__text">Home</a>
-                    <a href="" class="footer__text">Menu</a>
-                    <a href="" class="footer__text">Order Online</a>
-                    <a href="" class="footer__text">Catering</a>
-                    <a href="" class="footer__text">Reservation</a>
-                </div>
-                <div class="footer__about">
-                    <h4 class="footer__heading">Information</h4>
-                    <a href="" class="footer__text">About Us</a>
-                    <a href="" class="footer__text">Testimonials</a>
-                    <a href="" class="footer__text">Events</a>
-                </div>
-                <div class="footer__contact">
-                    <h4 class="footer__heading">Get In Touch</h4>
-                    <p class="footer__text">
-                        2075 65th St, <br />
-                        Brooklyn, NY,11234
-                    </p>
-                    <a
-                        href="mailto: okhun0709@gmail.com"
-                        class="footer__text"
-                        >okhun0709@mail.com</a
-                    >
-                    <a href="tel:347-555-77-60" class="footer__text"
-                        >347-555-77-60</a
-                    >
+                    <button class="btn btn-large btn-orange">
+                        Reservation
+                    </button>
                 </div>
             </div>
-            <p class="footer__text text-center">
-                Copyright &copy; 2023 DeliziOso
-            </p>
-        </div>
-    </footer>
-</body>
+        </section>
+        <section id="chefs-section">
+            <div class="container padding-container">
+                <h2>Our greatest <span>Chefs</span></h2>
+                <div class="chefs-section__chefs">
+                    <div class="chefs-section__chef">
+                        <img src="./assets/betran.png" alt="Betran Chef" />
+                        <h4>Betrann Komar</h4>
+                        <p>Head Chef</p>
+                    </div>
+                    <div class="chefs-section__chef">
+                        <img src="./assets/ferry.png" alt="Ferry Chef" />
+                        <h4>Ferry Sauwi</h4>
+                        <p>Chef</p>
+                    </div>
+                    <div class="chefs-section__chef">
+                        <img src="./assets/iswan.png" alt="Iswan Chef" />
+                        <h4>Iswan Dracho</h4>
+                        <p>Chef</p>
+                    </div>
+                </div>
+                <button class="btn btn-large btn-orange">View All</button>
+            </div>
+        </section>
+        <section id="testimonials-section padding-container">
+            <div class="container testimonials-section__container">
+                <h2>What Customers Say</h2>
+                <div class="testimonials-section__testimonials">
+                    <div class="testimonials-section__testimonial">
+                        <img
+                            src="./assets/customer-2.png"
+                            alt="Starla Virgoun"
+                        />
+                        <h4>Starla Virgoun</h4>
+                        <h5>Financial Advisor</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Soluta repudiandae cupiditate eaque obcaecati!
+                        </p>
+                    </div>
+                    <div class="testimonials-section__testimonial">
+                        <img src="./assets/customer-1.png" alt="James Steven" />
+                        <h4>James Steven</h4>
+                        <h5>Uber Driver</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Soluta repudiandae cupiditate eaque obcaecati!
+                        </p>
+                    </div>
+                    <div class="testimonials-section__testimonial">
+                        <img src="./assets/customer-3.png" alt="Tosh Mat" />
+                        <h4>Tosh Mattew</h4>
+                        <h5>Teacher</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Soluta repudiandae cupiditate eaque obcaecati!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hours-section">
+            <div class="container padding-container">
+                <div class="hours-section__background">
+                    <div class="hours-section__hours">
+                        <h2>We are open from</h2>
+                        <h3>Monday - Sunday</h3>
+                        <div class="hours-section__lunch-dinner">
+                            <p>Lunch: Mon-Sun: 11:00am-02:00pm</p>
+                            <p>Dinner: Sunday: 04:00pm-08:00pm</p>
+                            <p>04:00pm-09:00pm</p>
+                        </div>
+                        <button class="btn btn-large btn-orange">
+                            Order Now
+                        </button>
+                        <button class="btn btn-large btn-white">
+                            Reservation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container padding-container">
+                <div class="footer__content">
+                    <div class="footer__brand">
+                        <img
+                            src="./assets/logo-dark.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
+                        <p class="footer__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                        <div class="footer__social-icons">
+                            <img src="./assets/twitter.svg" alt="twitter" />
+                            <img src="./assets/instagram.svg" alt="instagram" />
+                            <img src="./assets/facebook.svg" alt="facebook" />
+                        </div>
+                    </div>
+                    <div class="footer__pages">
+                        <h4 class="footer__heading">Pages</h4>
+                        <a href="" class="footer__text">Home</a>
+                        <a href="" class="footer__text">Menu</a>
+                        <a href="" class="footer__text">Order Online</a>
+                        <a href="" class="footer__text">Catering</a>
+                        <a href="" class="footer__text">Reservation</a>
+                    </div>
+                    <div class="footer__about">
+                        <h4 class="footer__heading">Information</h4>
+                        <a href="" class="footer__text">About Us</a>
+                        <a href="" class="footer__text">Testimonials</a>
+                        <a href="" class="footer__text">Events</a>
+                    </div>
+                    <div class="footer__contact">
+                        <h4 class="footer__heading">Get In Touch</h4>
+                        <p class="footer__text">
+                            2075 65th St, <br />
+                            Brooklyn, NY,11234
+                        </p>
+                        <a
+                            href="mailto: okhun0709@gmail.com"
+                            class="footer__text"
+                            >okhun0709@mail.com</a
+                        >
+                        <a href="tel:347-555-77-60" class="footer__text"
+                            >347-555-77-60</a
+                        >
+                    </div>
+                </div>
+                <p class="footer__text text-center">
+                    Copyright &copy; 2023 DeliziOso
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
