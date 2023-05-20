@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Inter', sans-serif;;
-    src: url("./fonts/Inter-Regular.ttf") format("truetype");
+    font-family: "Poppins", sans-serif;
+    src: url("./fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Inter', sans-serif;;
-    src: url("./fonts/Inter-SemiBold.ttf") format("truetype");
+    font-family: "Poppins", sans-serif;
+    src: url("./fonts/Poppins-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
 
@@ -566,7 +566,7 @@ a {
 }
 
 .footer__text {
-    color:  rgb(227, 226, 224);
+    color: rgb(227, 226, 224);
     font-size: 16px;
     line-height: 32px;
     display: block;
