@@ -33,7 +33,7 @@ a {
 /* button styles */
 
 .btn {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     border: none;
     cursor: pointer;
 }
@@ -67,22 +67,22 @@ a {
 }
 
 .btn-orange {
-    background-color: rgb(255, 138, 0);
+    background-color: var(--orange-color);
     border-radius: 162px;
 }
 
 .btn-black {
-    background-color: rgb(49, 31, 9);
+    background-color: var(--dark-brown-color);
 }
 
 .btn-gray {
-    color: rgb(49, 31, 9);
-    background-color: rgb(236, 240, 241);
+    color: var(--dark-brown-color);
+    background-color: var(--gray-color);
 }
 
 .btn-white {
-    color: rgb(49, 31, 9);
-    background-color: rgb(255, 255, 255);
+    color: var(--dark-brown-color);
+    background-color: var(--white-color);
 }
 
 /* container styles */
@@ -130,12 +130,12 @@ a {
 }
 
 .navigation__links li a {
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     font-size: 14px;
 }
 
 .navigation__links .navigation__link {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .navigation__actions {
@@ -151,7 +151,7 @@ a {
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: rgb(236, 240, 241);
+    background-color: var(--gray-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -183,7 +183,7 @@ a {
     width: max-content;
     margin-bottom: 24px;
     background-color: rgba(255, 138, 0, 0.2);
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
     font-size: 18px;
     border-radius: 126px;
     padding: 5px 20px;
@@ -191,7 +191,7 @@ a {
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     font-size: 82px;
     font-weight: 600;
     line-height: 88px;
@@ -199,7 +199,7 @@ a {
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: rgb(92, 69, 41);
+    color: var(--light-brown-color);
     font-size: 20px;
 }
 
@@ -234,16 +234,16 @@ a {
 .welcome-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     margin-bottom: 50px;
 }
 
 .welcome-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .welcome-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--light-brown-color);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -255,7 +255,7 @@ a {
     text-align: center;
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     margin-bottom: 50px;
 }
 
@@ -281,7 +281,7 @@ a {
 .menu-section__price {
     font-size: 25px;
     line-height: 38px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     font-weight: 600;
 }
 
@@ -352,16 +352,16 @@ a {
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .reservation-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--light-brown-color);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -376,12 +376,12 @@ a {
 .chefs-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     margin-bottom: 50px;
 }
 
 .chefs-section__container h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .chefs-section__chefs {
@@ -445,7 +445,7 @@ a {
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
     margin-bottom: 100px;
     text-align: center;
 }
@@ -472,11 +472,11 @@ a {
     font-size: 25px;
     line-height: 50px;
     font-weight: 600;
-    color: rgb(49, 31, 9);
+    color: var(--dark-brown-color);
 }
 
 .testimonials-section__testimonial h5 {
-    color: rgb(92, 69, 41);
+    color: var(--light-brown-color);
     font-size: 18px;
     line-height: 36px;
     font-weight: 600;
@@ -484,7 +484,7 @@ a {
 }
 
 .testimonials-section__testimonial p {
-    color: rgb(92, 69, 41);
+    color: var(--light-brown-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -507,7 +507,7 @@ a {
 }
 
 .hours-section__hours h2 {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
 
     font-size: 60px;
     line-height: 70px;
@@ -515,7 +515,7 @@ a {
 }
 
 .hours-section__hours h3 {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
@@ -529,7 +529,7 @@ a {
 }
 
 .hours-section__lunch-dinner p {
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     text-align: center;
     font-size: 20px;
     line-height: 200%;
@@ -546,7 +546,7 @@ a {
 /* Footer */
 
 #footer {
-    background-color: rgb(49, 31, 9);
+    background-color: var(--dark-brown-color);
 }
 
 .footer__brand {
@@ -554,7 +554,7 @@ a {
 }
 
 .footer__container p {
-    color: rgb(227, 226, 224);
+    color: var(--dark-gray-color);
     font-size: 20px;
     line-height: 40px;
 }
@@ -566,7 +566,7 @@ a {
 }
 
 .footer__text {
-    color: rgb(227, 226, 224);
+    color: var(--dark-gray-color);
     font-size: 16px;
     line-height: 32px;
     display: block;
@@ -589,7 +589,7 @@ a {
 }
 
 .footer__heading {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
     font-size: 25px;
     line-height: 50px;
 }
